@@ -15,7 +15,7 @@
       {
         "testName":"deptnamingbeverage",
         "startDate": "6/03/2019",
-        "description": "If we change the 'Adult Beverage' to 'Beer, Wine and Spirits' in the dropdown menu then we\'ll see more clickes on beverage page.",
+        "description": "If we change the 'Adult Beverage' to 'Beer, Wine and Spirits' in the dropdown menu then we will see more clickes on beverage page.",
         "status": "Upcoming",
         "platform": "Native (Android)",
         "banner": "All",
