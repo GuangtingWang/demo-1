@@ -26,7 +26,7 @@
       {
         "testName":"hidebenefits",
         "startDate: "7/25/2019",
-        "description: "If you hide Benefit Sections we'll see an increase on conversion rate",
+        "description": "If you hide Benefit Sections we'll see an increase on conversion rate",
         "status": "Running",
         "platform": "Native(iOS)",
         "banner": "Fry's",
