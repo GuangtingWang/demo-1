@@ -1,14 +1,40 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  colNames: ['Test Name', "Description", "Start Date", "Status", "Platform", "Banner", "Allocation", "split", "Result"],
+  tests:[
+      {
+        testName:"featuredvssponsored",
+        startDate: "5/15/2019",
+        description: 'Use "sponsored" instead of "featured" to see if there will be a decrease on interaction with product card.',
+        status: "Ended",
+        platform: "Web",
+        banner: "Kroger",
+        allocation: "50%",
+        split: "50:50",
+        result: "N/A"
+      },
+      {
+        testName:"deptnamingbeverage",
+        startDate: "6/03/2019",
+        description: 'If we change the "Adult Beverage" to "Beer, Wine and Spirits" in the dropdown menu then we\'ll see more clickes on beverage page.',
+        status: "Upcoming",
+        platform: "(Android)",
+        banner: "All",
+        allocation: "100%",
+        split: "50:50",
+        result: "N/A"
+      },
+      {
+        testName:"hidebenefits",
+        startDate: "7/25/2019",
+        description: "If you hide Benefit Sections we'll see an increase on conversion rate",
+        status: "Running",
+        platform: "Native(iOS)",
+        banner: "Fry's",
+        allocation: "50%",
+        split: "50:50",
+        result: "N/A"
+      }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  searchParams: "",
+  user: {}
 }
